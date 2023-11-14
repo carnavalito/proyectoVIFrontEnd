@@ -1,0 +1,10 @@
+.pbackground{
+  background: url("../../assets/img/fondo_transito.jpg");
+
+}
+
+.list-group-item.active {
+
+  background-color: red !important;
+  border-color: red !important;
+}

@@ -1,0 +1,5 @@
+.pbackground{
+  background: url("../../assets/img/fondo_transito.jpg");
+background-repeat:no-repeat ;
+  background-size: cover;
+}

@@ -1,0 +1,32 @@
+<div class=" pt-1 pb-5 pbackground " style="min-height: 80vh;">
+    <p style="font-size: 3rem;color: blueviolet;" class=" text-center mt-0 fw-bold">Denunciar</p>
+  <div class="container align-items-center justify-content-center d-flex">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <form >
+
+          <div class="mb-3">
+            <label for="file" class="form-label">Prueba</label>
+            <input
+              type="file"
+              class="form-control"
+              id="file"
+              (change)="onChange($event)"
+            >
+          </div>
+
+
+          <button type="submit"
+                  class="btn btn-success m-2"
+                  (click)="onUpload()"
+          >Enviar Denuncia
+          </button>
+        </form>
+      </div>
+
+    </div>
+    <div>
+
+    </div>
+  </div>
+</div>
